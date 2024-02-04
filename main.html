@@ -9,15 +9,15 @@
 	</head>
 
 	<body>
-		<form> 
-			<select id="colorSelect"> 
-				<option>Red</option> 
-				<option>Green</option> 
-				<option>White</option> 
-				<option>Black</option> 
-			</select> 
-			<input type="button" value="Select and Remove"> 
-		</form>
+		<form action="" method="post">
+        <select id="colorSelect">
+            <option value="red" class="selectVal">Red</option>
+            <option value="green" class="selectVal">Green</option>
+            <option value="white" class="selectVal">White</option>
+            <option value="balck" class="selectVal">Black</option>
+        </select>
+        <input type="button" onclick="handleSubmit()" value="Select and Remove">
+    </form>
 
 		<script type="text/javascript" src="./script.js">
 		</script>

@@ -1,1 +1,7 @@
 /*  your css code here. If applicable */
+.hide {
+  display: none;
+}
+.unhide {
+  display: block;
+}
