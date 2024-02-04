@@ -14,7 +14,5 @@ function handleSubmit() {
       select[i].classList.add("unhide");
     }
   }
-  console.log(select);
-
-  console.log(selectedval, "selectedval");
+ 
 }
