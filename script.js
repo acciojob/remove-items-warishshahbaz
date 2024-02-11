@@ -1,6 +1,6 @@
 //your JS code here. If required.
 
-let selectedval;
+
 
 function handleSubmit() {
   
